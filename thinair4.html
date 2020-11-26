@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" 
+    type="image/png" 
+    href="./logo.jpg">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="description" content="Be ready for camping in Ladakh! Ladakh Camping Packages allows you to ride on one of the highest motorable roads in the world. Book a Ladakh camping tour now.">
+    <meta name="keywords" content="camping in ladakh, ladakh camping packages, ladakh camping tour">
+    <meta name="author" content="">
+    <title>Camping in Ladakh |Ladakh Camping Packages |Ladakh Camping Tour</title>
+	    
+	
+    <!-- Bootstrap Core CSS -->
+    <link href="http://www.ladakhbikerental.com/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="C:\Users\sonam namgyal\Desktop\thinair5\Buto-PluginDavegandyFontawesome450-56a849bcf772872852dd455c53b0f51a2108b2da\public.css" rel="stylesheet" type="text/css">
+    <!-- Template CSS -->
+    <link href="http://www.ladakhbikerental.com/assets/site1/css/template.css" rel="stylesheet">
+    <!-- Theme CSS -->
+    <link href="http://www.ladakhbikerental.com/assets/site1/css/theme-ii.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <style>
+    .fancybox-type-html > .fancybox-skin {padding:0 !important;}
+    </style> 
+</head>
+<body>
+
+<div id="booking_box">
+
+    <form name="book_frm" id="myForm" action="/packages/booking" method="post">
+    	<div class="row data_category_box">
+        	<div class="col-sm-12">
+                <label>Departure date *:</label>
+                                            <input type="text" class="datefrom form-control error_remove date_input" name="date_from" value="24/01/2020" id="date_from" autocomplete="off" data-date-format="dd/mm/yyyy" >
+                    <span id="date_from_error" class="validation_error"></span>
+            </div>
+    	<div class="col-sm-12">
+					</div>
+                    
+                </div>
+
+<div class="price_booking_outer" style="display:none">  <!--style="display:none"-->
+                        	                  	
+
+                                
+			<div class="clearfix"></div>
+	</div>
+
+           
+
+
+    <div class="booking_fields">
+    	
+				<div class="input_group">
+
+ 
+    <div class="traveller_pricing ">
+
+
+
+  
+      <div class="traveller_pricing_inner">
+      	<div>	
+            <div class="traveller_info" id="pl_pce3_default" >
+            	<div class="traveller_label">Rider</div>
+                <div class="traveller_label_price" id="pls_pce3"></div>
+            </div>
+        </div>    
+            <div class="traveller_price">
+                <div class="price_selector">
+                    <div class="form-group col-xs-3">
+                    <label>Rider:</label>
+                                        <span class="custom_select">
+                    <select name="pce3" id="pce3" class="form-control" onchange="common_calculation();">
+
+                                        <option value="1"  >1</option>
+                                        <option value="2"  >2</option>
+                                        <option value="3"  >3</option>
+                                        <option value="4"  >4</option>
+                                        <option value="5"  >5</option>
+                                        <option value="6"  >6</option>
+                                        <option value="7"  >7</option>
+                                        <option value="8"  >8</option>
+                                        <option value="9"  >9</option>
+                                        <option value="10"  >10</option>
+                                        <option value="11"  >11</option>
+                                        <option value="12"  >12</option>
+                                        <option value="13"  >13</option>
+                                        </select>
+                    </span></div>
+                                    </div>
+                <div class="price_view" id="pce3_total"></div>
+         </div>
+      </div>
+      
+      <div class="traveller_pricing_inner">
+      	<div>	
+            <div class="traveller_info" id="pl_pce4_default" >
+            	<div class="traveller_label">Pillion</div>
+                <div class="traveller_label_price" id="pls_pce4"></div>
+            </div>
+        </div>    
+            
+        <div class="traveller_price">
+            <div class="form-group col-xs-3">
+                <div class="price_selector">
+                    <label>Pillion:</label>
+                                        <span class="custom_select">
+                    <select name="pce4" id="pce4" class="form-control" onchange="common_calculation();">
+
+                                        <option value="0"  >0</option>
+                                        <option value="1"  >1</option>
+                                        <option value="2"  >2</option>
+                                        <option value="3"  >3</option>
+                                        <option value="4"  >4</option>
+                                        <option value="5"  >5</option>
+                                        <option value="6"  >6</option>
+                                        <option value="7"  >7</option>
+                                        <option value="8"  >8</option>
+                                        <option value="9"  >9</option>
+                                        <option value="10"  >10</option>
+                                        <option value="11"  >11</option>
+                                        <option value="12"  >12</option>
+                                        <option value="13"  >13</option>
+                                        </select>
+                    </span>
+                                    </div>
+                <div class="price_view" id="pce4_total"></div>
+         </div>
+        </div>
+      </div>
+          </div>
+</div>
+
+      </div>
+                           	
+                             <div class="form-group col-xs-3">                     
+                                  <div class="price_total_booking">
+                                
+                                                                <div id="div_totalprice" class="detail_prices total_price_view">
+                                Total Price:
+                                <div class="total_price_input"><i class="fa fa-usd"></i><input type="text" name="total_price" id="total_price" value="" readonly></div>
+                            	</div>
+							</div>
+
+                            
+                            <div class="action_btn">
+                                <input type="hidden" name="package_name" value="LADAKH CAMPS & RIDES">
+                                <input type="hidden" name="package_days" value="8 Days & 7 Nights">
+
+                                <input type="hidden" name="package_id" value="6">
+                                <input type="hidden" name="typeId" id="typeId" value="0">
+								<input type="hidden" name="hide_enquire_price" id="hide_enquire_price" value="">
+                                <div id="booking_price_error" style="color:red;"></div>
+                                    
+                                                                <input type="submit" id="book_now_button" name="book_now" value="Book Now" class="btn book_btn btn_detail"><br>
+                                                                                            	<a href="javascript:void(0);" class="enquireBtn btn book_btn btn_enquire">Enquire Now</a>
+                                                            </div>
+    
+                            
+                             </div>
+					    </form>
+                     
+<!-- END booking_box -->
+</div>
+</body>

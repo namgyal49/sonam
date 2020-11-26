@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" 
+    type="image/png" 
+    href="./logo.jpg">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="author" content="">
+    <title>Notice Admin</title>
+    <style>
+    .o{
+        background-color:black;
+        padding:15px;
+        color:white;
+    }
+
+    form{
+        width:330px;
+        height:350px;
+        border:5px groove darkblue;
+        position: absolute;
+        left: 50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+        padding:10px 10px 80px 10px;
+        text-align: center;
+        border-radius: 20px;
+        margin:10px;
+
+    }  
+ 
+.btn{
+    width:30%;
+    height:50px;
+    border:3px solid black;
+    margin:1px;
+    outline:none;
+    text-align:center;
+    float:right;
+    margin-top:30px;
+    font-size:20px;
+    border-radius:5px;
+
+}
+.btn:focus{
+    background:blue;
+}
+
+fieldset [placeholder=Your_Noticeboard]{
+    width:350px;
+    height:200px;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight:normal;
+    text-align:center;
+    border:2px solid black;
+    color:black;
+}
+legend{
+    background:black;
+    color:white;
+    
+}
+
+input[type=text]{
+    width:100%;
+    height:125px;
+    font-size:15px;
+}
+  </style>
+
+</head>
+
+<body>
+<script type="text/javascript">
+function x()
+{
+    alert("You want to add the message");
+}
+</script>
+
+
+    <form action="noticeadmin.php" method="POST">
+    
+        <h1 class="o"> Add Notice </h1>
+        <hr>
+       <fieldset>
+                <legend><h1>NOTICE BOARD</h1></legend>
+                <input type="text" name="noticeboard" placeholder="Type Your Message">
+                </fieldset>
+
+                                   
+             <button onclick="x()" type="submit" class="btn" name="addnotice">submit</button>
+
+    </form> 
+</body>
+</html>
+
